@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,400;1,700;1,900&family=Ubuntu:ital,wght@1,400;1,500&display=swap');
+
+* {
+    margin-top: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+body {
+    /* background: linear-gradient(to right, cadetblue,rgb(36, 110, 112), rgb(4, 4, 41)); */
+    background-color: cadetblue;
+   
+    height: 1000px;
+    padding: 100px;
+    
+    /* display: grid;
+    place-item: center; */
+}
+
+.container {
+    border: none;
+    height: 900px;
+    width: 1000px;
+    margin-top: 60px;
+    background-color: rgb(14, 54, 54);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 20px 30px rgb(29, 29, 40),
+    10px 20px 30px rgb(29, 29, 40),
+    10px 20px 30px rgb(29, 29, 40),
+    10px 20px 30px rgb(29, 29, 40);
+}
+#nav-bar{
+    height: 100px;
+    width: 100%;
+    
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding:  30px ;
+    justify-content: space-between;
+    align-items: center;
+}
+.port{
+   
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 30px;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+article{
+    
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+   
+    background-image: url('');
+    background-size: contain;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+.about{
+    height: 100%;
+    width: 600px;
+   
+    color: wheat;
+    padding: 10px;
+}
+h1{
+    font-weight: 800px;
+}
+.contact{
+    margin-top: 200px;
+   
+    height: 180px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    color: wheat;
+}
+.icon{
+    
+    text-align: center;
+    word-spacing: 20px;
+    height: 50px;
+}
+.icon a{
+    font-size: 30px;
+    color: #ffff;
+}
+ul{
+    margin-left: 13px;
+    margin-top: 8px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
