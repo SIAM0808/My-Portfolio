@@ -107,3 +107,33 @@ a{
     text-decoration: none;
     color: white;
 }
+html {
+    font-size: 100%;
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 1199px) {
+    html {
+        font-size: 95%;
+    }
+}
+
+@media (max-width: 575px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+
+
